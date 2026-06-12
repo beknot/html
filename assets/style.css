@@ -50,6 +50,19 @@ body{
     font-weight:600;
 }
 
+/* DATE */
+.platform-tile .date{
+    font-size:12px;
+    font-weight:600;
+    color: #2a82a8;
+    margin-top: 8px;
+    transition: transform 0.3s ease, color 0.3s ease;  /* add color here */
+
+}
+.platform-tile:hover .date{
+    color: #2b2b2b;
+}
+
 /* DESKTOP HOVER ONLY */
 @media (hover:hover) and (pointer:fine){
     .platform-tile:hover{
